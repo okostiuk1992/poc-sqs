@@ -18,8 +18,8 @@ public class SqsConfig {
     @Bean
     public SqsAsyncClient sqsAsyncClient() {
         return SqsAsyncClient.builder()
-                .credentialsProvider(DefaultCredentialsProvider.create())
-                .region(Region.of(region))
-                .build();
+            .credentialsProvider(DefaultCredentialsProvider.create())
+            .region(Region.of(region))
+            .build();
     }
 }
