@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 import software.amazon.awssdk.services.sqs.SqsAsyncClient;
 import software.amazon.awssdk.services.sqs.model.ReceiveMessageRequest;
 
+/**
+ * Example of optimization
+ */
 @Slf4j
 @Service
 public class SqsThreadPoolAdjuster {
